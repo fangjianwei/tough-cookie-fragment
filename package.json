@@ -1,5 +1,5 @@
 {
-  "name": "tough-cookie-fragment",
+  "name": "tough-cookie-framework",
   "version": "1.0.0",
   "description": "enhange tough-cookie",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fangjianwei/tough-cookie-fragment.git"
+    "url": "git://github.com/fangjianwei/tough-cookie-framework.git"
   },
   "keywords": [
     "cookie"
@@ -16,10 +16,11 @@
   "author": "samif",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fangjianwei/tough-cookie-fragment/issues"
+    "url": "https://github.com/fangjianwei/tough-cookie-framework/issues"
   },
-  "homepage": "https://github.com/fangjianwei/tough-cookie-fragment",
+  "homepage": "https://github.com/fangjianwei/tough-cookie-framework",
   "dependencies": {
+    "bluebird": "^2.8.2",
     "tough-cookie": "^0.12.1"
   }
 }
