@@ -1,6 +1,6 @@
 {
   "name": "tough-cookie-framework",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "enhange tough-cookie",
   "main": "index.js",
   "scripts": {
