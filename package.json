@@ -1,6 +1,6 @@
 {
   "name": "tough-cookie-framework",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "enhange tough-cookie",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/fangjianwei/tough-cookie-framework",
   "dependencies": {
-    "bluebird": "^2.8.2",
     "tough-cookie": "^0.12.1"
   }
 }
