@@ -26,7 +26,16 @@ tough-cookie-framework is a framework of tough-cookie module. See
   var CookieJar = require("tough-cookie").CookieJar;
   var storeEngine = new StoreEngine(); //your store engine impl
 
-  var jar = new CookieJar(new CookieStoreFramework("xhwyw000",sotreEngine));
+  var jar = new CookieJar(new CookieStoreFramework({
+      key:'abcd',
+      get:function(key,callback){
+          storeEngine.get(key,callback);
+      },
+      put:function(key,value,callback){
+          storeEngine.put(key,value,callback);
+      }
+  });
+  
 ```
 ## License
 
